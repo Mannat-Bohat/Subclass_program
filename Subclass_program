@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+class A {
+    public:
+    void sayhello(){
+        cout << "Hello World" << endl;
+    }
+    int sayhello(string name,int n){
+        cout << "Hello World" << endl;
+        return n;
+    }
+    void sayhello(string name){
+        cout << "Hello" << name << endl;
+    }
+};
+int main(){
+    A obj;
+    obj.sayhello();
+    return 0;
+}
